@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import  theImage from './codingpic.jpg';
 import './App.css';
 
 class App extends Component {
   render() {
   return (
     <div className="App">
-      <div className= "App__Aside"></div>
+      <div className= "App__Aside"> 
+        <img src={theImage} className="img"></img>
+        </div>
+
+
       <div className= "App__Form">
       
        <center><div className= "FormTitle">
