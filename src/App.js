@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import  theImage from './codingpic.jpg';
+import MainArea from './MainArea';
 import './App.css';
 
 class App extends Component {
@@ -70,13 +71,11 @@ class App extends Component {
              <div className="FormField">
                <button className="FormField__Button mr-20">Signup</button><a href="#" className="FormField__Link">i'm already member</a>
              </div>
-             
-             
+             <MainArea /> 
+              </div>
            </div>
-           </div>
-
-           
-        );
+        
+  );
 }
 }
 

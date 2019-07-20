@@ -9,15 +9,25 @@
 }
 .img{
   width: 700px;
-  height:700px;
+  height:1180px;
 }
 .App__Form {
   width: 100%;
-  height:700px;
+  height:1180px;
   background-color: rgb(75, 80, 85);
   padding: 1.5px;
   
 }
+
+.strapcard{
+
+  background-color:  rgb(75, 80, 85);
+  }
+  .img_card {
+    width: 400px;
+    height:200px;
+}
+
 
 .PageSwitcher {
   display: flex;
@@ -116,6 +126,7 @@
   font-size: .8em;
   font-weight: 500;
 }
+
 
 .FormField__Link {
   color: rgb(138, 140, 143);
